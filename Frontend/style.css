@@ -1,0 +1,112 @@
+:root {
+  --primary: #1a3a5c;
+  --primary-light: #2b5a8c;
+  --accent: #d4a017;
+  --accent-light: #f5c842;
+  --orange: #e8621a;
+  --bg: #f0f2f5;
+  --card-bg: #ffffff;
+  --text: #1e293b;
+  --text-muted: #64748b;
+  --border: #d1d5db;
+  --success: #16a34a;
+  --error: #dc2626;
+  --in-progress: #d97706;
+  --radius: 8px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Utility Bar */
+.utility-bar {
+  background: #0d2137;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.72rem;
+  padding: 5px 16px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.utility-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.utility-text {
+  letter-spacing: 0.3px;
+}
+
+/* Header */
+header {
+  background: var(--primary);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+
+.header-top {
+  padding: 14px 16px;
+}
+
+.header-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.header-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.emblem-circle { flex-shrink: 0; line-height: 1; }
+
+.header-top h1 {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.subtitle {
+  font-size: 0.82rem;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
+.header-right-badges {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.header-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  background: rgba(255,255,255,0.12);
+  color: #fff;
+  border: 1px solid rgba(255,255,255,0.2);
+}
