@@ -213,3 +213,28 @@
         </div>
       </div>
     </section>
+
+     <!-- Status Check Page -->
+    <section id="page-status" class="page">
+      <div class="card">
+        <h2>Check Complaint Status</h2>
+        <p class="card-desc">Enter your Ticket ID to view the current status of your complaint.</p>
+        <div class="search-bar">
+          <input type="text" id="ticket-input" placeholder="e.g. TKT-2026-12345">
+          <button class="btn btn-primary" id="search-btn">Search</button>
+        </div>
+        <div id="status-result" class="hidden">
+          <table class="detail-table">
+            <tr><th>Ticket ID</th><td id="r-ticket"></td></tr>
+            <tr><th>Name</th><td id="r-name"></td></tr>
+            <tr><th>Mobile</th><td id="r-mobile"></td></tr>
+            <tr><th>Category</th><td id="r-category"></td></tr>
+            <tr><th>Area</th><td id="r-area"></td></tr>
+            <tr><th>Description</th><td id="r-desc"></td></tr>
+            <tr><th>Status</th><td id="r-status"></td></tr>
+            <tr><th>Date Filed</th><td id="r-date"></td></tr>
+          </table>
+        </div>
+        <div id="status-error" class="error-msg hidden">No complaint found with this Ticket ID.</div>
+      </div>
+    </section>
