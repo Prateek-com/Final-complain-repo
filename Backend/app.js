@@ -24,7 +24,7 @@
     });
   });
 
-  // --- Home page link clicks (instruction links & any data-goto elements) ---
+  // Home page link clicks (instruction ) 
   document.querySelectorAll('[data-goto]').forEach(el => {
     el.addEventListener('click', (e) => {
       e.preventDefault();
