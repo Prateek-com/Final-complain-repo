@@ -31,3 +31,17 @@
       showPage(el.dataset.goto);
     });
   });
+
+  // --- Home page stats  
+  function updateHomeStats() {
+    const complaints = getComplaints();
+    const total = complaints.length;
+    const resolved = complaints.filter(c => c.status === 'RESOLVED').length;
+    const pending = total - resolved;
+    const homeTotal = document.getElementById('home-total');
+    const homeResolved = document.getElementById('home-resolved');
+    const homePending = document.getElementById('home-pending');
+    if (homeTotal) homeTotal.textContent = total;
+    if (homeResolved) homeResolved.textContent = resolved;
+    if (homePending) homePending.textContent = pending;
+  }
