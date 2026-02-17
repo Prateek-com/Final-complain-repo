@@ -23,3 +23,11 @@
       if (page === 'dashboard') renderDashboard();
     });
   });
+
+  // --- Home page link clicks (instruction links & any data-goto elements) ---
+  document.querySelectorAll('[data-goto]').forEach(el => {
+    el.addEventListener('click', (e) => {
+      e.preventDefault();
+      showPage(el.dataset.goto);
+    });
+  });
