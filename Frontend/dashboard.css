@@ -73,5 +73,12 @@
   color: #fff;
 }
 
+/* Dashboard Stats Grid */
+.dash-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+  margin-bottom: 20px;
+}
 
 
