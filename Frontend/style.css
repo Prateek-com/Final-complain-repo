@@ -353,3 +353,16 @@ textarea { resize: vertical; }
 
 .hidden { display: none !important; }
 
+/* Dashboard Top Bar */
+.dash-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--card-bg);
+  padding: 18px 24px;
+  border-radius: var(--radius);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
