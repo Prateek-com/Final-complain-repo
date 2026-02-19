@@ -119,3 +119,8 @@
   letter-spacing: 0.5px;
   margin-top: 2px;
 }
+
+
+.stat-total { border-left-color: var(--primary); }
+.stat-total .stat-icon { background: #e0e7ff; color: var(--primary); }
+.stat-total .num { color: var(--primary); }
