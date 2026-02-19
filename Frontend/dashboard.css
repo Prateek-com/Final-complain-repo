@@ -124,3 +124,7 @@
 .stat-total { border-left-color: var(--primary); }
 .stat-total .stat-icon { background: #e0e7ff; color: var(--primary); }
 .stat-total .num { color: var(--primary); }
+
+.stat-submitted { border-left-color: #3b82f6; }
+.stat-submitted .stat-icon { background: #dbeafe; color: #1e40af; }
+.stat-submitted .num { color: #1e40af; }
