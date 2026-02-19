@@ -111,3 +111,11 @@
   font-weight: 700;
   line-height: 1.2;
 }
+
+.stat-info .label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 2px;
+}
