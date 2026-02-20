@@ -133,4 +133,6 @@
 .stat-in-progress .stat-icon { background: #fef3c7; color: #92400e; }
 .stat-in-progress .num { color: #92400e; } 
 
-
+.stat-resolved { border-left-color: #22c55e; }
+.stat-resolved .stat-icon { background: #dcfce7; color: #166534; }
+.stat-resolved .num { color: #177c3e; }
