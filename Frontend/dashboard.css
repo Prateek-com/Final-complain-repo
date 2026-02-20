@@ -155,3 +155,10 @@
   padding-bottom: 8px;
   border-bottom: 2px solid #e2e8f0;
 }
+
+/* Category Grid */
+.dash-category-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
