@@ -147,3 +147,11 @@
   margin-bottom: 20px;
 }
  
+.dash-section-title {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 700;
+  margin-bottom: 14px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e2e8f0;
+}
