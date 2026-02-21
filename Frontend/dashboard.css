@@ -226,3 +226,10 @@ dash-controls {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
+
+.dash-filter-group select {
+  width: 160px;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+}
