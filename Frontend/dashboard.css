@@ -204,3 +204,11 @@
   font-weight: 700;
   color: var(--text);
 }
+
+/* Dashboard Controls */
+dash-controls {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
