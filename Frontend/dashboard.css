@@ -212,3 +212,9 @@ dash-controls {
   flex-wrap: wrap;
   align-items: flex-end;
 }
+
+.dash-filter-group {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
