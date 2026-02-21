@@ -233,3 +233,8 @@ dash-controls {
   padding: 8px 10px;
   font-size: 0.85rem;
 }
+
+.dash-search-group {
+  flex: 1;
+  min-width: 200px;
+}
