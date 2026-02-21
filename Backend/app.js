@@ -24,7 +24,7 @@
     });
   });
 
-  // Home page link clicks (instruction ) 
+  // --- Home page link clicks (instruction links & any data-goto elements) ---
   document.querySelectorAll('[data-goto]').forEach(el => {
     el.addEventListener('click', (e) => {
       e.preventDefault();
@@ -32,7 +32,7 @@
     });
   });
 
-  // --- Home page stats  
+  // --- Home page stats ---
   function updateHomeStats() {
     const complaints = getComplaints();
     const total = complaints.length;
@@ -45,3 +45,5 @@
     if (homeResolved) homeResolved.textContent = resolved;
     if (homePending) homePending.textContent = pending;
   }
+
+  
