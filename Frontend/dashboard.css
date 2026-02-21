@@ -238,3 +238,11 @@ dash-controls {
   flex: 1;
   min-width: 200px;
 }
+
+.dash-search-group input {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+}
