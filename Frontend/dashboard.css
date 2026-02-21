@@ -188,3 +188,19 @@
   color: var(--primary);
   flex-shrink: 0;
 }
+
+.cat-info { min-width: 0; }
+
+.cat-name {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cat-count {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+}
