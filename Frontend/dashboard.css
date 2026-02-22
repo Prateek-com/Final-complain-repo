@@ -309,3 +309,14 @@ dash-controls {
   border-radius: 4px;
 }
 
+ticket-link {
+  color: var(--primary-light);
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: underline;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
