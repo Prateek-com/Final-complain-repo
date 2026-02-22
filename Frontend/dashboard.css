@@ -269,3 +269,12 @@ dash-controls {
   padding: 4px 12px;
   border-radius: 20px;
 }
+
+/* Data table */
+.table-wrap { overflow-x: auto; margin-top: 14px; }
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.82rem;
+}
