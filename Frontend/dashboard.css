@@ -247,3 +247,12 @@ dash-controls {
   border-radius: var(--radius);
 }
 
+/* Table Header */
+.dash-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
