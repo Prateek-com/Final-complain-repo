@@ -256,3 +256,16 @@ dash-controls {
   gap: 8px;
 }
 
+.dash-table-header .dash-section-title {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
+.dash-record-count {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  background: #f1f5f9;
+  padding: 4px 12px;
+  border-radius: 20px;
+}
