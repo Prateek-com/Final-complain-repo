@@ -278,3 +278,16 @@ dash-controls {
   border-collapse: collapse;
   font-size: 0.82rem;
 }
+
+.data-table th {
+  background: var(--primary);
+  color: #fff;
+  padding: 11px 12px;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
+
