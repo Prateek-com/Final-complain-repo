@@ -291,3 +291,21 @@ dash-controls {
   letter-spacing: 0.3px;
 }
 
+
+.data-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: middle;
+}
+
+.data-table tr:hover td {
+  background: #f0f4ff;
+}
+
+.data-table select {
+  padding: 6px 8px;
+  font-size: 0.8rem;
+  width: auto;
+  border-radius: 4px;
+}
+
