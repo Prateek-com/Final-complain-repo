@@ -320,3 +320,5 @@ ticket-link {
   font-size: inherit;
 }
 
+.ticket-link:hover { color: var(--primary); }
+
