@@ -354,3 +354,19 @@ ticket-link {
   color: #fff;
   border-radius: var(--radius) var(--radius) 0 0;
 }
+
+.modal-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+.modal-close {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0 4px;
+}
