@@ -394,3 +394,6 @@ ticket-link {
   text-transform: uppercase;
   letter-spacing: 0.3px;
 }
+
+.modal-value {
+  flex: 1;}
