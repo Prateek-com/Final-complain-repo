@@ -388,4 +388,9 @@ ticket-link {
 .modal-label {
   width: 130px;
   flex-shrink: 0;
-  font-size: 0.82rem;}
+  font-size: 0.82rem;
+    font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.3px;
+}
