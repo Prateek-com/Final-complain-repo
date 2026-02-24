@@ -396,4 +396,8 @@ ticket-link {
 }
 
 .modal-value {
-  flex: 1;}
+  flex: 1;
+  font-size: 0.9rem;
+  color: var(--text);
+  word-break: break-word;
+}
