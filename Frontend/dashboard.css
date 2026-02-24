@@ -376,3 +376,9 @@ ticket-link {
 .modal-body {
   padding: 24px;
 }
+
+.modal-field {
+  display: flex;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 10px 0;
+}
