@@ -372,3 +372,7 @@ ticket-link {
 }
 
 .modal-close:hover { opacity: 0.7; }
+
+.modal-body {
+  padding: 24px;
+}
