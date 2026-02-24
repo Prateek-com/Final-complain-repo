@@ -384,3 +384,8 @@ ticket-link {
 }
 
 .modal-field:last-child { border-bottom: none; }
+
+.modal-label {
+  width: 130px;
+  flex-shrink: 0;
+  font-size: 0.82rem;}
