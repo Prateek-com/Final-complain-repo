@@ -416,3 +416,9 @@ ticket-link {
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
+
+.timeline {
+  position: relative;
+  padding-left: 24px;
+}
