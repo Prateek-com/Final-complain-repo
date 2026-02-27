@@ -411,4 +411,8 @@ ticket-link {
 
 .modal-timeline h4 {
   font-size: 0.85rem;
-  color: var(--primary);}
+  color: var(--primary);
+    margin-bottom: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
