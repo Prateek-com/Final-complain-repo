@@ -422,3 +422,9 @@ ticket-link {
   position: relative;
   padding-left: 24px;
 }
+
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 7px;}
