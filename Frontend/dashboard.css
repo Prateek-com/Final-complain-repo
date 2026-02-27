@@ -401,3 +401,10 @@ ticket-link {
   color: var(--text);
   word-break: break-word;
 }
+
+/* Timeline in modal */
+.modal-timeline {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 2px solid #e2e8f0;
+}
