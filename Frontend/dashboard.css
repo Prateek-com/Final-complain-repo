@@ -408,3 +408,7 @@ ticket-link {
   padding-top: 16px;
   border-top: 2px solid #e2e8f0;
 }
+
+.modal-timeline h4 {
+  font-size: 0.85rem;
+  color: var(--primary);}
