@@ -433,3 +433,8 @@ ticket-link {
   width: 2px;
   background: #cbd5e1;
 }
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 16px;
+}
