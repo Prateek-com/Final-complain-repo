@@ -475,3 +475,11 @@ ticket-link {
   color: var(--text-muted);
   margin-top: 2px;
 }
+
+/* Login hint */
+.hint {
+  text-align: center;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 16px;
+}
