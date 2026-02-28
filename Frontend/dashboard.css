@@ -469,3 +469,9 @@ ticket-link {
   color: var(--text);
   font-weight: 600;
 }
+
+.timeline-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
