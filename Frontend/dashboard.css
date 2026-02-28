@@ -441,3 +441,15 @@ ticket-link {
 
 /*next day*/
 .timeline-item:last-child { padding-bottom: 0; }
+
+
+.timeline-dot {
+  position: absolute;
+  left: -20px;
+  top: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 2px solid #cbd5e1;
+  background: #fff;
+}
