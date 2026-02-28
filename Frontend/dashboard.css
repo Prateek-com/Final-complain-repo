@@ -463,3 +463,9 @@ ticket-link {
   border-color: var(--success);
   background: var(--success);
 }
+
+.timeline-text {
+  font-size: 0.82rem;
+  color: var(--text);
+  font-weight: 600;
+}
