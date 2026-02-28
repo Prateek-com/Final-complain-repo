@@ -453,3 +453,8 @@ ticket-link {
   border: 2px solid #cbd5e1;
   background: #fff;
 }
+
+.timeline-dot.active {
+  border-color: var(--primary);
+  background: var(--primary);
+}
