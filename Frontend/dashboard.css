@@ -438,3 +438,6 @@ ticket-link {
   position: relative;
   padding-bottom: 16px;
 }
+
+/*next day*/
+.timeline-item:last-child { padding-bottom: 0; }
