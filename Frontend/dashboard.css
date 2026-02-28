@@ -483,3 +483,11 @@ ticket-link {
   color: var(--text-muted);
   margin-top: 16px;
 }
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 16px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
