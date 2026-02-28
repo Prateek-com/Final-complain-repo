@@ -490,4 +490,5 @@ footer {
   padding: 16px;
   font-size: 0.8rem;
   color: var(--text-muted);
+  border-top: 1px solid var(--border);
 }
