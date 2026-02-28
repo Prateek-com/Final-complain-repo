@@ -1,0 +1,10 @@
+/* ========== HOME / LANDING PAGE ========== */
+
+/* Hero Banner */
+.hero-banner {
+  position: relative;
+  background: linear-gradient(135deg, #1a3a5c 0%, #2b5a8c 40%, #1a3a5c 100%);
+  border-radius: var(--radius);
+  overflow: hidden;
+  margin-bottom: 0;
+}
