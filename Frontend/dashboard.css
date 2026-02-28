@@ -458,3 +458,8 @@ ticket-link {
   border-color: var(--primary);
   background: var(--primary);
 }
+
+.timeline-dot.completed {
+  border-color: var(--success);
+  background: var(--success);
+}
