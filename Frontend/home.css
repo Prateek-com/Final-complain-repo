@@ -8,3 +8,7 @@
   overflow: hidden;
   margin-bottom: 0;
 }
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;}
