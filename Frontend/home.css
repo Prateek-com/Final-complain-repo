@@ -20,4 +20,7 @@
 
 .hero-content {
   position: relative;
-  text-align: center;}
+  text-align: center;
+    padding: 48px 24px 44px;
+  z-index: 1;
+}
