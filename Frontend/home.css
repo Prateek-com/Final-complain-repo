@@ -28,3 +28,13 @@
 .hero-emblem-row {
   margin-bottom: 18px;
 }
+
+
+.hero-title {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  letter-spacing: 0.5px;
+  margin-bottom: 8px;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
