@@ -78,4 +78,6 @@
   font-weight: 700;
   color: #92400e;
  text-transform: uppercase;
+ flex-shrink: 0;
+  letter-spacing: 0.5px;
 }
