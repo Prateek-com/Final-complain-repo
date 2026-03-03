@@ -86,3 +86,8 @@
   overflow: hidden;
   flex: 1;
 }
+
+.ticker-text {
+  display: inline-block;
+  white-space: nowrap;
+}
