@@ -66,4 +66,9 @@
   align-items: center;
  background: #fff3cd;
   border-left: 4px solid var(--accent);
-  padding: 10px 16px;}
+  padding: 10px 16px;
+  margin-bottom: 24px;
+  border-radius: 0 0 var(--radius) var(--radius);
+  gap: 10px;
+  overflow: hidden;
+}
