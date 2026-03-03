@@ -63,4 +63,7 @@
 /* Ticker Bar */
 .ticker-bar {
   display: flex;
-  align-items: center;}
+  align-items: center;
+ background: #fff3cd;
+  border-left: 4px solid var(--accent);
+  padding: 10px 16px;}
