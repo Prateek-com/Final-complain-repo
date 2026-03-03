@@ -76,4 +76,6 @@
 .ticker-label {
   font-size: 0.78rem;
   font-weight: 700;
-  color: #92400e;}
+  color: #92400e;
+ text-transform: uppercase;
+}
