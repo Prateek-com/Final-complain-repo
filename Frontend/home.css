@@ -90,4 +90,8 @@
 .ticker-text {
   display: inline-block;
   white-space: nowrap;
+
+ animation: tickerScroll 25s linear infinite;
+  font-size: 0.82rem;
+  color: #78350f;
 }
