@@ -72,3 +72,8 @@
   gap: 10px;
   overflow: hidden;
 }
+
+.ticker-label {
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #92400e;}
