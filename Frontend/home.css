@@ -53,3 +53,9 @@
     margin: 0 auto 14px;
   border-radius: 3px;
 }
+
+.hero-tagline {
+  font-size: 0.85rem;
+  color: rgba(255,255,255,0.65);
+  letter-spacing: 0.3px;
+}
