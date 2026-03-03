@@ -81,3 +81,8 @@
  flex-shrink: 0;
   letter-spacing: 0.5px;
 }
+
+.ticker-wrap {
+  overflow: hidden;
+  flex: 1;
+}
