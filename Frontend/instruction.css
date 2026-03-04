@@ -6,4 +6,5 @@
   border-bottom: 3px solid var(--accent);
   padding: 0;
   margin-bottom: 24px;
+ overflow: hidden;
 }
