@@ -95,3 +95,6 @@
   font-size: 0.82rem;
   color: #78350f;
 }
+
+@keyframes tickerScroll {
+  0% { transform: translateX(100%); }}
