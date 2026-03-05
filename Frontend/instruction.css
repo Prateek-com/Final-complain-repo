@@ -14,4 +14,10 @@
   position: absolute;
   inset: 0;
   opacity: 0.04;
-  pointer-events: none;}
+  pointer-events: none;
+    pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 200' fill='%231a3a5c'%3E%3Crect x='50' y='80' width='40' height='120'/%3E%3Crect x='95' y='60' width='30' height='140'/%3E%3Crect x='130' y='100' width='50' height='100'/%3E%3Crect x='200' y='40' width='35' height='160'/%3E%3Crect x='240' y='70' width='45' height='130'/%3E%3Crect x='300' y='90' width='30' height='110'/%3E%3Crect x='340' y='50' width='25' height='150'/%3E%3Crect x='380' y='75' width='55' height='125'/%3E%3Crect x='450' y='30' width='30' height='170'/%3E%3Crect x='490' y='65' width='40' height='135'/%3E%3Crect x='550' y='85' width='35' height='115'/%3E%3Crect x='600' y='45' width='28' height='155'/%3E%3Crect x='640' y='70' width='50' height='130'/%3E%3Crect x='710' y='55' width='32' height='145'/%3E%3Crect x='750' y='80' width='45' height='120'/%3E%3Crect x='810' y='35' width='38' height='165'/%3E%3Crect x='860' y='60' width='30' height='140'/%3E%3Crect x='900' y='90' width='48' height='110'/%3E%3Crect x='960' y='50' width='35' height='150'/%3E%3Crect x='1010' y='75' width='42' height='125'/%3E%3Crect x='1060' y='40' width='30' height='160'/%3E%3Crect x='1100' y='65' width='50' height='135'/%3E%3C/svg%3E");
+  background-repeat: repeat-x;
+  background-position: bottom center;
+  background-size: 1200px 200px;
+}
