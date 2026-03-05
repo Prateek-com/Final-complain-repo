@@ -33,4 +33,9 @@
 .instructions-heading {
   text-align: center;
   font-size: 1.15rem;
-  font-weight: 700;}
+  font-weight: 700;
+    color: var(--primary);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
