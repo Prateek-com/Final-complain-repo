@@ -21,3 +21,8 @@
   background-position: bottom center;
   background-size: 1200px 200px;
 }
+
+.instructions-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 780px;}
