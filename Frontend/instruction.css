@@ -8,3 +8,10 @@
   margin-bottom: 24px;
  overflow: hidden;
 }
+
+/* Subtle city skyline background */
+.skyline-bg {
+  position: absolute;
+  inset: 0;
+  opacity: 0.04;
+  pointer-events: none;}
