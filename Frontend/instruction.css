@@ -66,4 +66,7 @@
 .instructions-list li {
   display: flex;
   align-items: flex-start;
-  gap: 14px;}
+  gap: 14px;
+   padding: 12px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
