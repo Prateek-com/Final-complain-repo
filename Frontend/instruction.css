@@ -62,3 +62,8 @@
   padding: 0;
   margin: 0 0 24px;
 }
+
+.instructions-list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;}
