@@ -74,3 +74,18 @@
 .instructions-list li:last-child {
   border-bottom: none;
 }
+
+.instruction-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  line-height: 1;
+}
