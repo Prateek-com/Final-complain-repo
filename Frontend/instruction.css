@@ -96,3 +96,13 @@
   line-height: 1.6;
   padding-top: 3px;
 }
+
+.instructions-highlight {
+  text-align: center;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--orange);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 16px;
+}
