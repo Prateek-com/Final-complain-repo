@@ -106,3 +106,12 @@
   margin-bottom: 20px;
   padding: 0 16px;
 }
+
+.instructions-actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  padding-top: 4px;
+}
