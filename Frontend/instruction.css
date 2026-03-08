@@ -142,4 +142,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;}
+  gap: 0;
+   background: var(--primary);
+  border-radius: var(--radius);
+  padding: 22px 32px;
+  margin-bottom: 24px;
+}
