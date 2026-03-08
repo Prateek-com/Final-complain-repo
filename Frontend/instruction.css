@@ -136,3 +136,10 @@
   font-size: 0.9rem;
   user-select: none;
 }
+
+/* Info Strip */
+.info-strip {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0;}
