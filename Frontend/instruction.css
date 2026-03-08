@@ -124,3 +124,8 @@
   letter-spacing: 0.3px;
   transition: color 0.2s;
 }
+
+.instruction-link:hover {
+  color: var(--orange);
+  text-decoration: underline;
+}
