@@ -148,3 +148,10 @@
   padding: 22px 32px;
   margin-bottom: 24px;
 }
+
+.info-strip-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
