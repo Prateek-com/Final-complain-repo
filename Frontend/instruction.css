@@ -129,3 +129,10 @@
   color: var(--orange);
   text-decoration: underline;
 }
+
+
+.action-separator {
+  color: var(--border);
+  font-size: 0.9rem;
+  user-select: none;
+}
