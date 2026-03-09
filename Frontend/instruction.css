@@ -162,3 +162,11 @@
   color: var(--accent-light);
   line-height: 1.2;
 }
+
+.info-strip-label {
+  font-size: 0.75rem;
+  color: rgba(255,255,255,0.7);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-top: 4px;
+}
