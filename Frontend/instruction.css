@@ -177,3 +177,12 @@
   background: rgba(255,255,255,0.2);
   flex-shrink: 0;
 }
+
+/* Bottom Links */
+.home-bottom-links {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    max-width: 480px;
+    margin: 0 auto 8px;
+  }
