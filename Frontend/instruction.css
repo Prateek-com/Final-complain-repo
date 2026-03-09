@@ -186,3 +186,14 @@
     max-width: 480px;
     margin: 0 auto 8px;
   }
+
+  .home-bottom-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.04);
+}
