@@ -197,3 +197,8 @@
   border: 1px solid #e2e8f0;
   box-shadow: 0 1px 4px rgba(0,0,0,0.04);
 }
+
+.bottom-card-icon {
+  font-size: 1.6rem;
+  flex-shrink: 0;
+}
