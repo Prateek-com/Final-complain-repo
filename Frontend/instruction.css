@@ -217,3 +217,8 @@
   margin: 0;
 }
 
+/* Responsive */
+@media (max-width: 900px) {
+  .dash-stats-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
