@@ -202,3 +202,12 @@
   font-size: 1.6rem;
   flex-shrink: 0;
 }
+
+
+.home-bottom-card strong {
+  font-size: 0.85rem;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 2px;
+}
+
