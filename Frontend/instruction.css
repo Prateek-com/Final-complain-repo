@@ -222,5 +222,6 @@
   .dash-stats-grid { grid-template-columns: repeat(2, 1fr); }
 .dash-category-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
 .instructions-inner { padding: 30px 24px 28px; }
+ .header-right-badges { display: none; }
 }
 
