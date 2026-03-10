@@ -211,3 +211,9 @@
   margin-bottom: 2px;
 }
 
+.home-bottom-card p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
