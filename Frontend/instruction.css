@@ -220,5 +220,6 @@
 /* Responsive */
 @media (max-width: 900px) {
   .dash-stats-grid { grid-template-columns: repeat(2, 1fr); }
+.dash-category-grid { grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); }
 }
 
