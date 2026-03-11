@@ -230,5 +230,9 @@
   .header-brand { gap: 10px; }
   .header-top h1 { font-size: 1rem; }
   .nav-link { padding: 10px 14px; font-size: 0.8rem; }
-  .form-row { grid-template-columns: 1fr; }}
+  .form-row { grid-template-columns: 1fr; }
+ .card { padding: 20px; }
+  .search-bar { flex-direction: column; }
+  .detail-table th { width: 110px; }
+}
 
