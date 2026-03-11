@@ -234,5 +234,8 @@
  .card { padding: 20px; }
   .search-bar { flex-direction: column; }
   .detail-table th { width: 110px; }
+.dash-stats-grid { grid-template-columns: 1fr; }
+  .dash-topbar { padding: 14px 16px; }
+  .dash-emblem { font-size: 1.6rem; }
 }
 
