@@ -225,3 +225,7 @@
  .header-right-badges { display: none; }
 }
 
+@media (max-width: 640px) {
+  .utility-bar { display: none; }
+  .header-brand { gap: 10px; }}
+
