@@ -243,5 +243,8 @@
  .dash-filter-group select { width: 100%; }
   .modal-content { max-width: 100%; }
   .modal-field { flex-direction: column; gap: 4px; }
+ .modal-label { width: auto; }
+  .hero-title { font-size: 1.4rem; }
+  .hero-subtitle { font-size: 0.9rem; }
 }
 
