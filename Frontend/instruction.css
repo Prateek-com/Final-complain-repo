@@ -240,5 +240,8 @@
 .dash-topbar h2 { font-size: 1rem; }
   .dash-section { padding: 16px; }
   .dash-controls { flex-direction: column; }
+ .dash-filter-group select { width: 100%; }
+  .modal-content { max-width: 100%; }
+  .modal-field { flex-direction: column; gap: 4px; }
 }
 
