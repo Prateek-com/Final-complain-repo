@@ -237,5 +237,8 @@
 .dash-stats-grid { grid-template-columns: 1fr; }
   .dash-topbar { padding: 14px 16px; }
   .dash-emblem { font-size: 1.6rem; }
+.dash-topbar h2 { font-size: 1rem; }
+  .dash-section { padding: 16px; }
+  .dash-controls { flex-direction: column; }
 }
 
