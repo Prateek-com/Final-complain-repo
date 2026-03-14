@@ -251,5 +251,7 @@
   .instructions-heading { font-size: 1rem; }
 .instructions-actions { gap: 10px; }
   .action-separator { display: none; }
+.instructions-actions { flex-direction: column; gap: 8px; }
+  .info-strip { padding: 16px; }
 }
 
