@@ -255,5 +255,7 @@
   .info-strip { padding: 16px; }
  .info-strip-num { font-size: 1.3rem; }
     .home-bottom-card { padding: 12px 14px; }
+/* Widen main for dashboard */
+#page-dashboard { max-width: 1200px; margin: 0 auto; }
 }
 
