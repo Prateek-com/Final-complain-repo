@@ -49,4 +49,8 @@
     // Initialize home stats on load
   updateHomeStats();
 
+    // --- LocalStorage helpers ---
+  function getComplaints() {
+  }
+
   
