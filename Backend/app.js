@@ -55,4 +55,8 @@
   
   }
 
+ function saveComplaints(list) {
+    localStorage.setItem('complaints', JSON.stringify(list));
+  }
+
   
