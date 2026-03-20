@@ -46,4 +46,7 @@
     if (homePending) homePending.textContent = pending;
   }
 
+    // Initialize home stats on load
+  updateHomeStats();
+
   
