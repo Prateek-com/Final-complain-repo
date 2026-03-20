@@ -51,6 +51,8 @@
 
     // --- LocalStorage helpers ---
   function getComplaints() {
+      return JSON.parse(localStorage.getItem('complaints') || '[]');
+  
   }
 
   
