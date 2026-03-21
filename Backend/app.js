@@ -59,4 +59,8 @@
     localStorage.setItem('complaints', JSON.stringify(list));
   }
 
+  function isLoggedIn() {
+    return sessionStorage.getItem('authority_logged_in') === 'true';
+  }
+
   
