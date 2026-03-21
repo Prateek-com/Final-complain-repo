@@ -63,4 +63,8 @@
     return sessionStorage.getItem('authority_logged_in') === 'true';
   }
 
-  
+ // --- Generate Ticket ID ---
+  function generateTicketId() {
+    const num = Math.floor(10000 + Math.random() * 90000);
+    return 'TKT-2026-' + num;
+  }
