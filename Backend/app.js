@@ -68,3 +68,6 @@
     const num = Math.floor(10000 + Math.random() * 90000);
     return 'TKT-2026-' + num;
   }
+
+   // --- Complaint Form ---
+  const form = document.getElementById('complaint-form');
