@@ -73,3 +73,6 @@
   const form = document.getElementById('complaint-form');
   const successMsg = document.getElementById('success-msg');
     const ticketDisplay = document.getElementById('ticket-display');
+
+  form.addEventListener('submit', e => {
+    e.preventDefault();  });
