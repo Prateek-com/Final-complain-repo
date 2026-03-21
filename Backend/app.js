@@ -71,3 +71,4 @@
 
    // --- Complaint Form ---
   const form = document.getElementById('complaint-form');
+  const successMsg = document.getElementById('success-msg');
