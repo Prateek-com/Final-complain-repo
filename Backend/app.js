@@ -105,3 +105,4 @@
 
     // --- Status Check ---
   const searchBtn = document.getElementById('search-btn');
+    const ticketInput = document.getElementById('ticket-input');
