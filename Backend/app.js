@@ -102,3 +102,6 @@
     form.classList.remove('hidden');
     successMsg.classList.add('hidden');
   } 
+
+    // --- Status Check ---
+  const searchBtn = document.getElementById('search-btn');
