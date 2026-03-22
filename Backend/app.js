@@ -74,5 +74,31 @@
   const successMsg = document.getElementById('success-msg');
     const ticketDisplay = document.getElementById('ticket-display');
 
-  form.addEventListener('submit', e => {
-    e.preventDefault();  });
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+    const ticket = generateTicketId();
+    const complaint = {
+      ticketId: ticket,
+      name: document.getElementById('name').value.trim(),
+      mobile: document.getElementById('mobile').value.trim(),
+      category: document.getElementById('category').value,
+      area: document.getElementById('area').value.trim(),
+      description: document.getElementById('description').value.trim(),
+      status: 'SUBMITTED',
+      date: new Date().toLocaleDateString('en-IN', { day: '2-digit', month: 'short', year: 'numeric' })
+    };
+
+    const complaints = getComplaints();
+    complaints.unshift(complaint);
+    saveComplaints(complaints);
+
+    ticketDisplay.textContent = ticket;
+    form.classList.add('hidden');
+    successMsg.classList.remove('hidden');
+  });
+
+  document.getElementById('new-complaint-btn').addEventListener('click', () => {
+    form.reset();
+    form.classList.remove('hidden');
+    successMsg.classList.add('hidden');
+  } 
