@@ -113,7 +113,7 @@
     const id = ticketInput.value.trim().toUpperCase();
      statusResult.classList.add('hidden');
      statusError.classList.add('hidden');
-    }
+    
 
     if (!id) return;
 
