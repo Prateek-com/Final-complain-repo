@@ -114,3 +114,7 @@
      statusResult.classList.add('hidden');
      statusError.classList.add('hidden');
     }
+
+    if (!id) return;
+
+    const complaint = getComplaints().find(c => c.ticketId === id);
