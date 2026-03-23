@@ -108,3 +108,6 @@
     const ticketInput = document.getElementById('ticket-input');
       const statusResult = document.getElementById('status-result');
       const statusError = document.getElementById('status-error');
+
+       searchBtn.addEventListener('click', () => {
+    const id = ticketInput.value.trim().toUpperCase();}
