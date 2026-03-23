@@ -110,4 +110,6 @@
       const statusError = document.getElementById('status-error');
 
        searchBtn.addEventListener('click', () => {
-    const id = ticketInput.value.trim().toUpperCase();}
+    const id = ticketInput.value.trim().toUpperCase();
+     statusResult.classList.add('hidden');
+    }
