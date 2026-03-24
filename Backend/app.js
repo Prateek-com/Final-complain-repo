@@ -124,3 +124,4 @@
     }
 
     document.getElementById('r-ticket').textContent = complaint.ticketId;
+    document.getElementById('r-name').textContent = complaint.name;
