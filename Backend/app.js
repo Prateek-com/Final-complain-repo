@@ -122,3 +122,5 @@
       statusError.classList.remove('hidden');
       return;
     }
+
+    document.getElementById('r-ticket').textContent = complaint.ticketId;
