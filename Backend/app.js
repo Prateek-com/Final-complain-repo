@@ -130,3 +130,4 @@
     document.getElementById('r-area').textContent = complaint.area;
      document.getElementById('r-desc').textContent = complaint.description;
      document.getElementById('r-date').textContent = complaint.date;
+     document.getElementById('r-status').innerHTML = makeBadge(complaint.status);
