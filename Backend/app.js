@@ -132,3 +132,4 @@
      document.getElementById('r-date').textContent = complaint.date;
      document.getElementById('r-status').innerHTML = makeBadge(complaint.status);
      statusResult.classList.remove('hidden');
+      });
