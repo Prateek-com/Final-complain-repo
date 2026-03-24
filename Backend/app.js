@@ -127,3 +127,4 @@
     document.getElementById('r-name').textContent = complaint.name;
     document.getElementById('r-mobile').textContent = complaint.mobile;
     document.getElementById('r-category').textContent = complaint.category;
+    document.getElementById('r-area').textContent = complaint.area;
