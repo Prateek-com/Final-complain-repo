@@ -129,3 +129,4 @@
     document.getElementById('r-category').textContent = complaint.category;
     document.getElementById('r-area').textContent = complaint.area;
      document.getElementById('r-desc').textContent = complaint.description;
+     document.getElementById('r-date').textContent = complaint.date;
