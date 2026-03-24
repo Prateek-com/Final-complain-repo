@@ -126,3 +126,4 @@
     document.getElementById('r-ticket').textContent = complaint.ticketId;
     document.getElementById('r-name').textContent = complaint.name;
     document.getElementById('r-mobile').textContent = complaint.mobile;
+    document.getElementById('r-category').textContent = complaint.category;
