@@ -133,3 +133,8 @@
      document.getElementById('r-status').innerHTML = makeBadge(complaint.status);
      statusResult.classList.remove('hidden');
       });
+
+      ticketInput.addEventListener('keydown', e => {
+    if (e.key === 'Enter') searchBtn.click();
+  });
+
