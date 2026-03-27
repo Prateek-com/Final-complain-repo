@@ -137,4 +137,13 @@
       ticketInput.addEventListener('keydown', e => {
     if (e.key === 'Enter') searchBtn.click();
   });
-
+// --- Badge helper ---
+  function makeBadge(status) {
+    const cls = {
+      'SUBMITTED': 'badge-submitted',
+      'IN_PROGRESS': 'badge-in-progress',
+      'RESOLVED': 'badge-resolved'
+    }[status] || 'badge-submitted';
+    const label = status.replace('_', ' ');
+    return `<span class="badge ${cls}">${label}</span>`;
+  }
