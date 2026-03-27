@@ -151,6 +151,7 @@
   / --- Login ---
   const loginForm = document.getElementById('login-form');
    const loginError = document.getElementById('login-error');
+  loginError.classList.add('hidden');
 
   loginForm.addEventListener('submit', e => {
     e.preventDefault();
