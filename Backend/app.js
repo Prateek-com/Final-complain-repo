@@ -147,3 +147,6 @@
     const label = status.replace('_', ' ');
     return `<span class="badge ${cls}">${label}</span>`;
   }
+
+  / --- Login ---
+  const loginForm = document.getElementById('login-form');
