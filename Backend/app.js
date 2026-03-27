@@ -151,3 +151,7 @@
   / --- Login ---
   const loginForm = document.getElementById('login-form');
    const loginError = document.getElementById('login-error');
+
+  loginForm.addEventListener('submit', e => {
+    e.preventDefault();
+    const user = document.getElementById('username').value.trim();
