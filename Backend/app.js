@@ -171,3 +171,4 @@ loginForm.reset();
           dashLink.textContent = 'Dashboard';
          dashLink.addEventListener('click', ev => {
           ev.preventDefault();
+           showPage('dashboard');
