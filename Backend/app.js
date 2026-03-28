@@ -166,3 +166,5 @@ loginForm.reset();
        if (!document.querySelector('[data-page="dashboard"]')) {
         const dashLink = document.createElement('a');
         dashLink.href = '#';
+          dashLink.className = 'nav-link';
+        dashLink.dataset.page = 'dashboard';
