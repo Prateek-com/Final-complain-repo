@@ -172,4 +172,7 @@ loginForm.reset();
          dashLink.addEventListener('click', ev => {
           ev.preventDefault();
            showPage('dashboard');
-           renderDashboard();
+           renderDashboard()
+              });
+           
+           
