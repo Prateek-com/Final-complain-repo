@@ -162,3 +162,7 @@ loginForm.reset();
       sessionStorage.setItem('authority_logged_in', 'true');
         loginError.classList.add('hidden');
 loginForm.reset();
+
+       if (!document.querySelector('[data-page="dashboard"]')) {
+        const dashLink = document.createElement('a');
+        dashLink.href = '#';
