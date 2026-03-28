@@ -169,3 +169,5 @@ loginForm.reset();
           dashLink.className = 'nav-link';
         dashLink.dataset.page = 'dashboard';
           dashLink.textContent = 'Dashboard';
+         dashLink.addEventListener('click', ev => {
+          ev.preventDefault();
