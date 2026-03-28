@@ -160,3 +160,4 @@ loginForm.reset();
 
     if (user === 'admin' && pass === 'admin123') {
       sessionStorage.setItem('authority_logged_in', 'true');
+        loginError.classList.add('hidden');
