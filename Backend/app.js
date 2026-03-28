@@ -168,3 +168,4 @@ loginForm.reset();
         dashLink.href = '#';
           dashLink.className = 'nav-link';
         dashLink.dataset.page = 'dashboard';
+          dashLink.textContent = 'Dashboard';
