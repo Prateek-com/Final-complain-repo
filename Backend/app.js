@@ -178,5 +178,5 @@ loginForm.reset();
        }
 
        showPage('dashboard');
-      
+      renderDashboard();
            
