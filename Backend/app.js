@@ -175,5 +175,8 @@ loginForm.reset();
            renderDashboard()
               });
            document.querySelector('nav').appendChild(dashLink);
-      }
+       }
+
+       showPage('dashboard');
+      
            
