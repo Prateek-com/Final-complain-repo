@@ -179,4 +179,8 @@ loginForm.reset();
 
        showPage('dashboard');
       renderDashboard();
+      } else {
+      loginError.classList.remove('hidden');
+    }
+  });
            
