@@ -184,3 +184,6 @@ loginForm.reset();
     }
   });
            
+ // --- Logout ---
+  document.getElementById('logout-btn').addEventListener('click', () => {
+    sessionStorage.removeItem('authority_logged_in');
