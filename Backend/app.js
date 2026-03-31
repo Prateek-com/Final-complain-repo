@@ -196,3 +196,5 @@ loginForm.reset();
   const categoryIcons = {
     'Road & Pothole': '&#128679;',
     'Water Supply': '&#128167;',
+        'Sewage & Drainage': '&#9968;',
+
