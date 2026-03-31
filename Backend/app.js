@@ -191,3 +191,7 @@ loginForm.reset();
     if (dashLink) dashLink.remove();
     showPage('complaint');
   });
+
+ / --- Category Icons Map ---
+  const categoryIcons = {
+    'Road & Pothole': '&#128679;',
