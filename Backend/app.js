@@ -195,3 +195,4 @@ loginForm.reset();
  / --- Category Icons Map ---
   const categoryIcons = {
     'Road & Pothole': '&#128679;',
+    'Water Supply': '&#128167;',
