@@ -201,4 +201,4 @@ loginForm.reset();
      'Garbage Collection': '&#128465;',
     'Noise Pollution': '&#128266;',
     'Illegal Construction': '&#127959;',
-
+'Public Safety': '&#128722;',
