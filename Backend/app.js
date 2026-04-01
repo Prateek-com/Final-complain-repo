@@ -200,4 +200,5 @@ loginForm.reset();
     'Street Lighting': '&#128161;',
      'Garbage Collection': '&#128465;',
     'Noise Pollution': '&#128266;',
+    'Illegal Construction': '&#127959;',
 
