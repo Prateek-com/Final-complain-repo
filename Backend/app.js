@@ -199,4 +199,5 @@ loginForm.reset();
         'Sewage & Drainage': '&#9968;',
     'Street Lighting': '&#128161;',
      'Garbage Collection': '&#128465;',
+    'Noise Pollution': '&#128266;',
 
