@@ -197,4 +197,5 @@ loginForm.reset();
     'Road & Pothole': '&#128679;',
     'Water Supply': '&#128167;',
         'Sewage & Drainage': '&#9968;',
+    'Street Lighting': '&#128161;',
 
