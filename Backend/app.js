@@ -203,3 +203,4 @@ loginForm.reset();
     'Illegal Construction': '&#127959;',
 'Public Safety': '&#128722;',
  'Other': '&#128221;'
+  };
