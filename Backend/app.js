@@ -202,3 +202,4 @@ loginForm.reset();
     'Noise Pollution': '&#128266;',
     'Illegal Construction': '&#127959;',
 'Public Safety': '&#128722;',
+ 'Other': '&#128221;'
