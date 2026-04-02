@@ -213,3 +213,4 @@ let dashSearchQuery = '';
   // Filter/search event listeners
   document.getElementById('dash-filter-status').addEventListener('change', e => {
     dashFilterStatus = e.target.value;
+renderDashboard();
