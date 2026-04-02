@@ -204,3 +204,6 @@ loginForm.reset();
 'Public Safety': '&#128722;',
  'Other': '&#128221;'
   };
+
+  // --- Dashboard ---
+  let dashFilterStatus = 'ALL';
