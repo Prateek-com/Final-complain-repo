@@ -209,3 +209,6 @@ loginForm.reset();
   let dashFilterStatus = 'ALL';
    let dashFilterCategory = 'ALL';
 let dashSearchQuery = '';
+
+  // Filter/search event listeners
+  document.getElementById('dash-filter-status').addEventListener('change', e => {
