@@ -208,3 +208,4 @@ loginForm.reset();
   // --- Dashboard ---
   let dashFilterStatus = 'ALL';
    let dashFilterCategory = 'ALL';
+let dashSearchQuery = '';
