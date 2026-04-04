@@ -215,3 +215,5 @@ let dashSearchQuery = '';
     dashFilterStatus = e.target.value;
 renderDashboard();
   }); 
+
+ document.getElementById('dash-search').addEventListener('input', 
