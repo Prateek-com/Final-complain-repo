@@ -218,3 +218,4 @@ renderDashboard();
 
  document.getElementById('dash-search').addEventListener('input',  e => {
     dashSearchQuery = e.target.value.trim().toLowerCase();
+renderDashboard();
