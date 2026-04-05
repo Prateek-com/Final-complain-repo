@@ -230,3 +230,9 @@ renderDashboard();
  document.getElementById('modal-close').addEventListener('click' , () => {
    document.getElementById('complaint-modal').classList.add('hidden');
  });
+
+document.getElementById('compliaint-modal').addEventListener('click',e => {
+  if (e.target ===e.currentTarget) {
+    e.currentTarget.classList.add('hidden');
+  }
+  ;
