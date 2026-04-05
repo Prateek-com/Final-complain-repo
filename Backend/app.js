@@ -228,3 +228,5 @@ renderDashboard();
 
  //Modal
  document.getElementById('modal-close').addEventListener('click' , () => {
+   document.getElementById('complaint-modal').classList.add('hidden');
+ });
