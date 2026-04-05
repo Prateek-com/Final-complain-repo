@@ -238,4 +238,5 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
   
   function openComplaintModal(complaint) {
     const body = document.getElementById('modal-boyd');
+    const statusSteps = ['SUBMITTED', 'IN_PROGRESS', 'RESOLVED'];
     
