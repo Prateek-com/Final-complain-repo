@@ -234,5 +234,6 @@ renderDashboard();
 document.getElementById('compliaint-modal').addEventListener('click',e => {
   if (e.target ===e.currentTarget) {
     e.currentTarget.classList.add('hidden');
-  }
-  ;
+  });
+  
+  
