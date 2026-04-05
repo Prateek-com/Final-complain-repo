@@ -225,3 +225,6 @@ renderDashboard();
     dashSearchQuery = e.target.value.trim().toLowerCase();
 renderDashboard();
   });
+
+ //Modal
+ document.getElementById('modal-close').addEventListener('click' , () => {
