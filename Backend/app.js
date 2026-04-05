@@ -241,5 +241,5 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     const statusSteps = ['SUBMITTED', 'IN_PROGRESS', 'RESOLVED'];
     const currentIdx =statusStep.indexOf(complaint.status);
 
-    
+    body.innerHTML = `
     
