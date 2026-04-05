@@ -236,4 +236,6 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     e.currentTarget.classList.add('hidden');
   });
   
-  
+  function openComplaintModal(complaint) {
+    const body = document.getElementById('modal-boyd');
+    
