@@ -242,4 +242,4 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     const currentIdx =statusStep.indexOf(complaint.status);
 
     body.innerHTML = `
-    
+    <div class="modal-field"><span class="modal-label">Ticket ID</span><span class="modal-value"><strong>${complaint.ticketId}</strong></span></div>
