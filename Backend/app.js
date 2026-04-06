@@ -243,3 +243,4 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 
     body.innerHTML = `
     <div class="modal-field"><span class="modal-label">Ticket ID</span><span class="modal-value"><strong>${complaint.ticketId}</strong></span></div>
+          <div class="modal-field"><span class="modal-label">Name</span><span class="modal-value">${complaint.name}</span></div>
