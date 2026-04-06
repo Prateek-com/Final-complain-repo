@@ -245,3 +245,4 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     <div class="modal-field"><span class="modal-label">Ticket ID</span><span class="modal-value"><strong>${complaint.ticketId}</strong></span></div>
           <div class="modal-field"><span class="modal-label">Name</span><span class="modal-value">${complaint.name}</span></div>
 <div class="modal-field"><span class="modal-label">Mobile</span><span class="modal-value">${complaint.mobile}</span></div>
+<div class="modal-field"><span class="modal-label">Category</span><span class="modal-value">${complaint.category}</span></div>
