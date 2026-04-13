@@ -249,4 +249,5 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 <div class="modal-field"><span class="modal-label">Area / Ward</span><span class="modal-value">${complaint.area}</span></div>
 <div class="modal-field"><span class="modal-label">Description</span><span class="modal-value">${complaint.description}</span></div>
 <div class="modal-field"><span class="modal-label">Date Filed</span><span class="modal-value">${complaint.date}</span></div>
+<div class="modal-field"><span class="modal-label">Status</span><span class="modal-value">${makeBadge(complaint.status)}</span></div>
 
