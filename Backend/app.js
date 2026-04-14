@@ -253,6 +253,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
  <div class="modal-timeline">
  <h4>Complaint Timeline</h4>
  <div class="timeline">
+ ${statusSteps.map((step, i) 
  
  
  
