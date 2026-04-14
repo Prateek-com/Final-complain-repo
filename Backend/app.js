@@ -251,4 +251,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 <div class="modal-field"><span class="modal-label">Date Filed</span><span class="modal-value">${complaint.date}</span></div>
 <div class="modal-field"><span class="modal-label">Status</span><span class="modal-value">${makeBadge(complaint.status)}</span></div>
  <div class="modal-timeline">
+ <h4>Complaint Timeline</h4>
+ 
+ 
+ 
+ 
 
