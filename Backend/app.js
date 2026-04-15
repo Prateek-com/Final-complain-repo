@@ -256,6 +256,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
  ${statusSteps.map((step, i) => {
    let dotClass = '';
             if (i < currentIdx) dotClass = 'completed';
+   else if (i === currentIdx) dotClass = 'active';
  
  
  
