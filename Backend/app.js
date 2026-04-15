@@ -257,6 +257,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
    let dotClass = '';
             if (i < currentIdx) dotClass = 'completed';
    else if (i === currentIdx) dotClass = 'active';
+   const label = step.replace('_', ' ');
  
  
  
