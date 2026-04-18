@@ -261,7 +261,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
    const dateText = i <= currentIdx ? complaint.date : '—';
      return `
         <div class="timeline-item">
-     
+        <div class="timeline-dot ${dotClass}"></div>
  
  
  
