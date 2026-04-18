@@ -259,6 +259,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
    else if (i === currentIdx) dotClass = 'active';
    const label = step.replace('_', ' ');
    const dateText = i <= currentIdx ? complaint.date : '—';
+     return `
  
  
  
