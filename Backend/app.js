@@ -260,6 +260,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
    const label = step.replace('_', ' ');
    const dateText = i <= currentIdx ? complaint.date : '—';
      return `
+        <div class="timeline-item">
+     
  
  
  
