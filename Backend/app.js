@@ -265,6 +265,11 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
            <div class="timeline-text">${label}</div>
            <div class="timeline-date">${dateText}</div>
            </div>
+              `;
+          }).join('')}
+        </div>
+      </div>
+    `;
  
  
  
