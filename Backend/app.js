@@ -270,6 +270,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
         </div>
       </div>
     `;
+     document.getElementById('complaint-modal').classList.remove('hidden');
+  }
+
  
  
  
