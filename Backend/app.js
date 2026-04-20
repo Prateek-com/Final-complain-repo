@@ -263,6 +263,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
         <div class="timeline-item">
         <div class="timeline-dot ${dotClass}"></div>
            <div class="timeline-text">${label}</div>
+           <div class="timeline-date">${dateText}</div>
  
  
  
