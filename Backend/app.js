@@ -277,6 +277,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
        const tbody = document.getElementById('complaints-body');
        const noMsg = document.getElementById('no-complaints');
       const statsEl = document.getElementById('dash-stats');
+       const categoriesEl = document.getElementById('dash-categories');
 
  
  
