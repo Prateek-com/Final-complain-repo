@@ -273,6 +273,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
      document.getElementById('complaint-modal').classList.remove('hidden');
   }
    function renderDashboard() {
+       const complaints = getComplaints();
 
  
  
