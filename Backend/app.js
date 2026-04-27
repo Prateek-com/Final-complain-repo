@@ -282,6 +282,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 
       // Stats
     const counts = { SUBMITTED: 0, IN_PROGRESS: 0, RESOLVED: 0 };
+     const catCounts = {};
 
  
  
