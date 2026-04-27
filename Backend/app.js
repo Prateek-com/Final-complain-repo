@@ -285,6 +285,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
      const catCounts = {};
      complaints.forEach(c => {
       if (counts[c.status] !== undefined) counts[c.status]++;
+       catCounts[c.category] = (catCounts[c.category] || 0) + 1;
+    });
 
  
  
