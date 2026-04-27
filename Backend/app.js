@@ -280,6 +280,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
        const categoriesEl = document.getElementById('dash-categories');
      const recordCountEl = document.getElementById('dash-record-count');
 
+      // Stats
+    const counts = { SUBMITTED: 0, IN_PROGRESS: 0, RESOLVED: 0 };
+
  
  
  
