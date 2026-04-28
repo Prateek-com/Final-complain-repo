@@ -288,6 +288,10 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
        catCounts[c.category] = (catCounts[c.category] || 0) + 1;
     });
 
+     const total = complaints.length;
+    statsEl.innerHTML = `
+      <div class="stat-card stat-total"> 
+
  
  
  
