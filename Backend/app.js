@@ -292,6 +292,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     statsEl.innerHTML = `
       <div class="stat-card stat-total"> 
       <div class="stat-icon">&#128203;</div>
+      <div class="stat-info"><div class="num">${total}</div><div class="label">Total Complaints</div></div>
+      </div>
 
  
  
