@@ -304,6 +304,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       </div>
       <div class="stat-card stat-resolved">
        <div class="stat-icon">&#9989;</div>
+         <div class="stat-info"><div class="num">${counts.RESOLVED}</div><div class="label">Resolved</div></div>
+      </div>
+    `;
  
  
 
