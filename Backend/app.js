@@ -299,7 +299,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       <div class="stat-info"><div class="num">${counts.SUBMITTED}</div><div class="label">Submitted</div></div>
       </div>
        <div class="stat-card stat-in-progress">
- 
+     <div class="stat-icon">&#9881;</div>
+     
  
  
 
