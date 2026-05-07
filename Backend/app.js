@@ -300,6 +300,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       </div>
        <div class="stat-card stat-in-progress">
      <div class="stat-icon">&#9881;</div>
+      <div class="stat-info"><div class="num">${counts.IN_PROGRESS}</div><div class="label">In Progress</div></div>
+      </div>
      
  
  
