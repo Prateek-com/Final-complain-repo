@@ -307,6 +307,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
          <div class="stat-info"><div class="num">${counts.RESOLVED}</div><div class="label">Resolved</div></div>
       </div>
     `;
- 
+     // Category breakdown
+    const allCategories = Object.keys(categoryIcons);
  
 
