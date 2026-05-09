@@ -316,6 +316,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
        <div class="cat-name" title="${cat}">${cat}</div>
        </div>
       </div>
+       `).join('');
 
  
 
