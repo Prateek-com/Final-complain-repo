@@ -310,5 +310,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
      // Category breakdown
     const allCategories = Object.keys(categoryIcons);
       <div class="cat-card">
+         <div class="cat-icon">${categoryIcons[cat]}</div>
+        <div class="cat-info">
  
 
