@@ -318,16 +318,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       </div>
        `).join('');
 
-        // Populate category filter dropdown
-    const catFilter = document.getElementById('dash-filter-category');
-      <div class="cat-card">
-        <div class="cat-icon">${categoryIcons[cat]}</div>
-         <div class="cat-info">
-          <div class="cat-count">${catCounts[cat] || 0}</div>
-             <div class="cat-name" title="${cat}">${cat}</div>
-        </div>
-      </div>
-    `).join('');
+    
 
  
 
