@@ -318,6 +318,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       </div>
        `).join('');
 
+        // Populate category filter dropdown
+    const catFilter = document.getElementById('dash-filter-category');
+
     
 
  
