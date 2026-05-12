@@ -324,6 +324,10 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
         <div class="cat-icon">${categoryIcons[cat]}</div>
          <div class="cat-info">
           <div class="cat-count">${catCounts[cat] || 0}</div>
+             <div class="cat-name" title="${cat}">${cat}</div>
+        </div>
+      </div>
+    `).join('');
 
  
 
