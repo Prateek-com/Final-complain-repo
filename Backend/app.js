@@ -322,6 +322,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     const catFilter = document.getElementById('dash-filter-category');
       <div class="cat-card">
         <div class="cat-icon">${categoryIcons[cat]}</div>
+         <div class="cat-info">
+          <div class="cat-count">${catCounts[cat] || 0}</div>
 
  
 
