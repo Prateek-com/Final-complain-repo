@@ -323,6 +323,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
  const currentCatVal = catFilter.value;
     const uniqueCats = [...new Set(complaints.map(c => c.category))];
      catFilter.innerHTML = '<option value="ALL">All Categories</option>' +
+       uniqueCats.map(c => `<option value="${c}" ${c === currentCatVal ? 'selected' : ''}>${c}</option>`).join('');
     
 
  
