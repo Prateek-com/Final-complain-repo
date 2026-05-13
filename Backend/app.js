@@ -330,7 +330,9 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     if (dashFilterStatus !== 'ALL') {
       filtered = filtered.filter(c => c.status === dashFilterStatus);
     }
-    
+     if (dashFilterCategory !== 'ALL') {
+      filtered = filtered.filter(c => c.category === dashFilterCategory);
+    }
 
  
 
