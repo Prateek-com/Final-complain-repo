@@ -320,7 +320,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 
         // Populate category filter dropdown
     const catFilter = document.getElementById('dash-filter-category');
-
+ const currentCatVal = catFilter.value;
+    const uniqueCats = [...new Set(complaints.map(c => c.category))];
     
 
  
