@@ -322,6 +322,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
     const catFilter = document.getElementById('dash-filter-category');
  const currentCatVal = catFilter.value;
     const uniqueCats = [...new Set(complaints.map(c => c.category))];
+     catFilter.innerHTML = '<option value="ALL">All Categories</option>' +
     
 
  
