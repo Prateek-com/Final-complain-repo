@@ -344,3 +344,6 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 
      recordCountEl.textContent = `Showing ${filtered.length} of ${total} records`;
 
+     if (filtered.length === 0) {
+      tbody.innerHTML = '';
+
