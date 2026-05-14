@@ -346,4 +346,5 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
 
      if (filtered.length === 0) {
       tbody.innerHTML = '';
+       noMsg.classList.remove('hidden');
 
