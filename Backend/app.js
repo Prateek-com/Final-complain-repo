@@ -337,4 +337,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
   if (dashSearchQuery) {
       filtered = filtered.filter(c =>
         c.ticketId.toLowerCase().includes(dashSearchQuery) ||
+         c.name.toLowerCase().includes(dashSearchQuery) ||
+        c.area.toLowerCase().includes(dashSearchQuery)
+      );
+    }
 
