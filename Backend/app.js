@@ -342,3 +342,5 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
       );
     }
 
+     recordCountEl.textContent = `Showing ${filtered.length} of ${total} records`;
+
