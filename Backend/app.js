@@ -347,4 +347,7 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
      if (filtered.length === 0) {
       tbody.innerHTML = '';
        noMsg.classList.remove('hidden');
+       noMsg.textContent = total === 0 ? 'No complaints have been filed yet.' : 'No complaints match the current filters.';
+      return;
+    }
 
