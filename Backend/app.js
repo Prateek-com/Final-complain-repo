@@ -362,3 +362,5 @@ noMsg.classList.add('hidden');
           <td>${c.mobile}</td>
            <td>${c.category}</td>
           <td>${c.area}</td>
+          <td>${c.date}</td>
+          <td>${makeBadge(c.status)}</td>
