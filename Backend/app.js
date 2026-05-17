@@ -355,3 +355,6 @@ noMsg.classList.add('hidden');
       // Find original index in full complaints array
       const origIdx = complaints.indexOf(c);
       return `
+      <tr>
+          <td>${i + 1}</td>
+          <td><button class="ticket-link" data-ticket="${c.ticketId}">${c.ticketId}</button></td>
