@@ -360,3 +360,5 @@ noMsg.classList.add('hidden');
           <td><button class="ticket-link" data-ticket="${c.ticketId}">${c.ticketId}</button></td>
            <td>${c.name}</td>
           <td>${c.mobile}</td>
+           <td>${c.category}</td>
+          <td>${c.area}</td>
