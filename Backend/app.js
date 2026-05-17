@@ -358,3 +358,5 @@ noMsg.classList.add('hidden');
       <tr>
           <td>${i + 1}</td>
           <td><button class="ticket-link" data-ticket="${c.ticketId}">${c.ticketId}</button></td>
+           <td>${c.name}</td>
+          <td>${c.mobile}</td>
