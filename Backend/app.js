@@ -350,4 +350,8 @@ document.getElementById('compliaint-modal').addEventListener('click',e => {
        noMsg.textContent = total === 0 ? 'No complaints have been filed yet.' : 'No complaints match the current filters.';
       return;
     }
-
+noMsg.classList.add('hidden');
+    tbody.innerHTML = filtered.map((c, i) => {
+      // Find original index in full complaints array
+      const origIdx = complaints.indexOf(c);
+      return `
