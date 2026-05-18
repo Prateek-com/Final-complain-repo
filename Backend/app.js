@@ -366,3 +366,4 @@ noMsg.classList.add('hidden');
           <td>${makeBadge(c.status)}</td>
           <td>
             <select data-index="${origIdx}" class="status-select">
+             <option value="SUBMITTED" ${c.status === 'SUBMITTED' ? 'selected' : ''}>Submitted</option>
