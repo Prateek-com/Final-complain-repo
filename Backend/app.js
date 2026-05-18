@@ -364,3 +364,5 @@ noMsg.classList.add('hidden');
           <td>${c.area}</td>
           <td>${c.date}</td>
           <td>${makeBadge(c.status)}</td>
+          <td>
+            <select data-index="${origIdx}" class="status-select">
