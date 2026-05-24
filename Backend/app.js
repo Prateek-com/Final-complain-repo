@@ -374,3 +374,6 @@ noMsg.classList.add('hidden');
         </tr>
       `;
     }).join('');
+
+     // Status change handlers
+    tbody.querySelectorAll('.status-select').forEach(sel => {
