@@ -368,3 +368,4 @@ noMsg.classList.add('hidden');
             <select data-index="${origIdx}" class="status-select">
              <option value="SUBMITTED" ${c.status === 'SUBMITTED' ? 'selected' : ''}>Submitted</option>
               <option value="IN_PROGRESS" ${c.status === 'IN_PROGRESS' ? 'selected' : ''}>In Progress</option>
+              <option value="RESOLVED" ${c.status === 'RESOLVED' ? 'selected' : ''}>Resolved</option>
