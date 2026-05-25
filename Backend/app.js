@@ -377,4 +377,5 @@ noMsg.classList.add('hidden');
 
      // Status change handlers
     tbody.querySelectorAll('.status-select').forEach(sel => {
-      sel.addEventListener('change', () =>
+      sel.addEventListener('change', () => {
+        const idx = parseInt(sel.dataset.index);
