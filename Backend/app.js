@@ -382,3 +382,5 @@ noMsg.classList.add('hidden');
         const all = getComplaints();
         all[idx].status = sel.value;
         saveComplaints(all);
+        renderDashboard();
+      });
