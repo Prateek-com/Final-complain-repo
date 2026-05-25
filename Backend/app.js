@@ -384,3 +384,4 @@ noMsg.classList.add('hidden');
         saveComplaints(all);
         renderDashboard();
       });
+        });
