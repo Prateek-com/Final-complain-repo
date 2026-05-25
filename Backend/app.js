@@ -379,3 +379,6 @@ noMsg.classList.add('hidden');
     tbody.querySelectorAll('.status-select').forEach(sel => {
       sel.addEventListener('change', () => {
         const idx = parseInt(sel.dataset.index);
+        const all = getComplaints();
+        all[idx].status = sel.value;
+        saveComplaints(all);
