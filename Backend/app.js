@@ -388,5 +388,6 @@ noMsg.classList.add('hidden');
 
  // Ticket link click handlers
     tbody.querySelectorAll('.ticket-link').forEach(link => {
+      link.addEventListener('click', () => {
 
   
