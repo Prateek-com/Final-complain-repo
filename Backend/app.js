@@ -385,5 +385,9 @@ noMsg.classList.add('hidden');
         renderDashboard();
       });
         });
-
+     
+ // Ticket link click handlers
+    tbody.querySelectorAll('.ticket-link').forEach(link => {
+      link.addEventListener('click', () => {
+  
  
