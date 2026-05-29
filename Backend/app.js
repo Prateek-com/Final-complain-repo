@@ -390,5 +390,6 @@ noMsg.classList.add('hidden');
     tbody.querySelectorAll('.ticket-link').forEach(link => {
       link.addEventListener('click', () => {
         const c = complaints.find(x => x.ticketId === link.dataset.ticket);
+         if (c) openComplaintModal(c);
   
  
