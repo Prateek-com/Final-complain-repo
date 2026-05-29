@@ -391,5 +391,8 @@ noMsg.classList.add('hidden');
       link.addEventListener('click', () => {
         const c = complaints.find(x => x.ticketId === link.dataset.ticket);
          if (c) openComplaintModal(c);
-  
+  });
+    });
+  }
+})();
  
