@@ -9,3 +9,4 @@ currently working on backend
 everything is done only working on backend connection
 Few work remaining still woriking on it .
 Also add new features. 
+Using few ai tool for forntend parts 
